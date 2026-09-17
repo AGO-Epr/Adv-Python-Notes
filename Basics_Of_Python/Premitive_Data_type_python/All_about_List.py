@@ -63,3 +63,6 @@ list_1=['a','b','c']
 list_2=[1,2,3]
 pair=[[item_1,item_2]for item_1 in list_1 for item_2 in list_2] #syntax: [expression for item1 in iterable1 for item2 in iterable2]
 print(pair)
+
+'''Output : [['a', 1], ['a', 2], ['a', 3], ['b', 1], ['b', 2], ['b', 3], ['c', 1], ['c', 2], ['c', 3]]
+'''
